@@ -1,0 +1,159 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  /* Estilos para las secciones */
+  #inicio, #categorias, #galeria, #acerca, #contacto {
+    padding: 20px 0;
+  }
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  ul {
+    list-style: none;
+    font-size: 1.1rem;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para el modo oscuro */
+  .dark-mode body {
+    background-color: #343a40;
+    color: #fff;
+  }
+  .dark-mode .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .dark-mode .navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: white;
+    border-color: white;
+  }
+  .custom-control-label.text-light {
+    color: white;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #343a40;
+  }
+  .custom-switch .custom-control-label::before {
+    background-color: #f8f9fa;
+  }
+  .custom-switch .custom-control-label::after {
+    background-color: #343a40;
+  }
+  .custom-switch .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.25);
+  }
+  .dark-mode {
+    background-color: #343a40;
+    color: #fff;
+  }
+  .dark-mode .card-body {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  /* Estilos específicos para la página de inicio en modo oscuro */
+  .dark-mode #inicio {
+    background-color: #1b1b1b;
+  }
+  
+  /* Estilos específicos para la sección "Acerca de" en modo oscuro */
+  .dark-mode #acerca {
+    background-color: #1b1b1b;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Estilos adicionales */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  .nav-link:hover {
+    color: #ffc107;
+  }
+  #inicio {
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  #categorias ul {
+    list-style-type: none;
+    font-size: 18px;
+  }
+  #galeria .card {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  #acerca {
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .btn-primary {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    background-color: #ffca3a;
+  }
+  
+  /* Estilos generales para los contenedores */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
