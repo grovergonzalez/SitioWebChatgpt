@@ -93,7 +93,7 @@ body {
     border-radius: 5px;
   }
   
-  /* Estilos adicionales */
+
   .navbar {
     margin-bottom: 20px;
   }
@@ -150,10 +150,22 @@ body {
     background-color: #ffca3a;
   }
   
-  /* Estilos generales para los contenedores */
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
   
+.social-icons .fab {
+  font-size: 24px;
+}
+
+.social-icons .social-icon {
+  color: #fff; 
+  margin: 0 10px;
+  text-decoration: none; 
+}
+
+.social-icons .social-icon:hover {
+  color: #ffc107; 
+}
