@@ -199,3 +199,8 @@ body {
 #footer-index{
   padding-top: 100%;
 }
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
