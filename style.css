@@ -191,6 +191,20 @@ body {
   padding-bottom: 8%;
 }
 
+ /* Estilos específicos para la sección "Acerca de" en modo oscuro */
+ .dark-mode #categorias {
+  background-color: #1b1b1b;
+  color: #fff;
+  border-radius: 5px;
+}
+.dark-mode #categorias p, h1{
+  color: #fff;
+}
+
+.dark-mode #categorias h3{
+  color: #7ac7ce;
+}
+
 .image-interface {
   max-width: 100%; 
   height: auto;
